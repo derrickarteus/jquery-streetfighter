@@ -1,4 +1,4 @@
-$(document).ready(function() {
+(function($) {
   $('.ryu').mouseenter(function() {
     $('.ryu-still').hide();
     $('.ryu-ready').show();
@@ -38,7 +38,7 @@ $(document).ready(function() {
       $('.ryu-still').show();
     }
   });
-});
+})(jQuery);
 
 
 
